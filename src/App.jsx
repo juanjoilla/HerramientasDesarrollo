@@ -34,7 +34,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            Vite Docs Testing
           </a>
         </p>
       </header>

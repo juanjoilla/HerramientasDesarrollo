@@ -9,7 +9,7 @@ permissions:
   pull-requests: read
 
 jobs:
-  ci:
+  build_and_test:
     name: CI
     runs-on: ubuntu-latest
 
@@ -35,7 +35,7 @@ jobs:
   dependency-review:
     name: Dependency Review
     runs-on: ubuntu-latest
-    needs: ci
+    needs: build_and_test
 
     steps:
       - name: Checkout repository

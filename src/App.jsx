@@ -16,7 +16,7 @@ const App = () => {
           </button>
         </p>
         <p>
-          Edit <code>App.jsx</code> and save to test hot module replacement (HMR).
+          Aplicación de Gestión - v1.0.1 Hotfix aplicado.
         </p>
         <p>
           <a
